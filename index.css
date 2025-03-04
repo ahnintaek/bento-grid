@@ -75,6 +75,9 @@ body {
 .container div::-webkit-scrollbar {
     display: none;
 }
+.container p {
+    font-weight: 500;
+}
 .review {
     background-color: var(--Purple500);
     color: var(--White);
@@ -111,6 +114,10 @@ body {
     width: 180px;
     margin-top: 10px;
 }
+#scheduleimg {
+    overflow: hidden;
+    padding: 0;
+}
 .media {
     background-color: var(--Purple100);
 }
@@ -118,6 +125,10 @@ body {
     /* height: 200px; */
     margin-top: 10px;
     width: 250px;
+}
+#mediaimg {
+    overflow: auto;
+    padding: 0;
 }
 .follwers {
     background-color: var(--Purple500);
